@@ -1,0 +1,222 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Outfit;
+}
+ 
+/*classes flex*/
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+ 
+.flex-column {
+  flex-direction: column;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+ 
+
+.gap-6{
+    gap: 6px;
+}
+.gap-20{
+    gap: 20px;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+ 
+.justify-around {
+  justify-content: space-around;
+}
+ 
+.justify-center {
+  justify-content: center;
+}
+ 
+.space-between{
+    justify-content: space-between;
+}
+.space-around{
+    justify-content: space-around;
+}
+
+.align-center {
+  align-items: center;
+}
+ 
+.align-start {
+  align-items: flex-start;
+}
+ 
+.align-end {
+  align-items: flex-end;
+}
+ 
+.txt-align-center{
+    text-align: center;
+}
+/*largeurs*/
+.w-100{
+    width: 100%;
+}
+.w-75{
+    width: 75%;
+}
+.w-70{
+    width: 70%;
+}
+.w-65{
+    width: 65%;
+}
+.w-33{
+    width: 33%;
+}
+.w-28{
+    width: 28%;
+}
+.w-20{
+    width: 20%;
+}
+.w-8{
+    width: 8%;
+}
+
+.p-10{
+    padding: 0px 10px 0px 10px;
+}
+
+.p-16 {
+  padding: 16px;
+}
+ 
+.p-32 {
+  padding: 32px 0;
+}
+
+.p-35 {
+    padding: 0px 35px 0px 35px;
+}
+
+.m-top15 {
+    margin-top: 15px;
+}
+.container {
+  width: 100%;
+  padding: 16px;
+}
+ 
+.container-1000 {
+  max-width: 1000px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 16px;
+}
+ 
+.container-1200 {
+  max-width: 1200px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 16px;
+}
+
+
+/* classes flexbox */
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+
+/*alignement*/
+
+.space-between{
+    justify-content: space-between;
+}
+
+.align-center{
+    align-items: center;
+}
+
+
+
+/* génériques */
+
+#section1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 15px;
+
+    gap: 20px;
+
+}
+
+.prix{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+.carte {
+    background-color: rgba(234, 234, 232, 0.82);
+    padding: 20px;
+    border-radius: 20px;
+    width: 47%;
+}
+
+
+/*truc en moins (liste etc..)*/
+.ptsenmoins{
+ list-style: none;
+}
+.ligneenmoins{
+    text-decoration: none;
+}
+
+/* header */
+.align{
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* hero */
+.hero{
+    justify-content: space-between;
+}
+.bg-hero{
+    background-image:url(Asset/image-hero.png);
+    width: 100%;
+}
+.txt-white{
+    color: white;
+}
+
+/* section 1 */
+
+/* main */
+.opacity{
+    background-color: white;
+    opacity: 0.5; /* 50% de transparence */
+}
+.btn{
+    border-radius: 15%;
+    background-color: orange;
+}
+
+/* footer */
+
+.bg-white{
+    background-color: white;
+}
