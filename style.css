@@ -196,8 +196,12 @@
     justify-content: space-between;
 }
 .bg-hero{
+    margin-top: 35px;
     background-image:url(Asset/image-hero.png);
-    width: 100%;
+    height:70vh /* indique hauteur de 70% de la hauteur de mon écran */;
+    background-position: center; /* centre l'image de fond */
+    background-repeat: no-repeat; /* empêche la répétition de l'image de fond*/
+    background-size: cover; /*adapte l'image de fond à la taille de l'écran */
 }
 .txt-white{
     color: white;
@@ -211,8 +215,10 @@
     opacity: 0.5; /* 50% de transparence */
 }
 .btn{
-    border-radius: 15%;
-    background-color: orange;
+    border-radius: 10%;
+    background-color: #FF9020;
+    width: 25%;
+    height: 10%;
 }
 
 /* footer */
